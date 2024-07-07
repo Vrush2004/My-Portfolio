@@ -6,7 +6,7 @@
 }
 body{
     color: #ededed;
-    background: #081b29;
+    background: #230229;
 }
 .header{
     position: fixed;
@@ -46,16 +46,21 @@ body{
     color: #0ef;
 }
 .home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(purple.jpg) no-repeat;
+    background: #230229;
     background-size: cover;
     background-position: center;
-    display: flex;
     align-items: center;
     padding: 70px 10% 0;
+}
+.home-img img{
+    margin-left: 100px;
+    max-width: 630px;
 }
 .home-content{
     max-width: 600px;
@@ -133,6 +138,44 @@ body{
     0 0 25px cyan, 0 0 50px cyan,
     0 0 100px cyan, 0 0 200px cyan;
 }
+
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+.about-img img{
+    padding-bottom: 20%;
+    height: 90%;
+    width: 70%;
+    border-radius: 8px;
+    margin-left: 100px;
+}
+.about-text{
+    margin-right: 100px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
 
 
 @keyframes slideRight{
