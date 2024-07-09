@@ -223,6 +223,63 @@ body{
     transform: translateY(-10px);
 }
 
+.skill-main{
+    padding: 70px 10% 0;
+    padding-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skill-bar{
+    margin-bottom: 2.3rem;
+}
+.skill-main h3{
+    margin-bottom: 2rem;
+    font-size: 33px;
+    text-align: center;
+}
+.skill-left .skill-bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.skill-left .skill-bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.skill-bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background: #0ef;
+    border-radius: 25px;
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef;
+}
+.skill-bar .bar .html{
+    width: 80%;
+    animation: html 2s;
+}
+.skill-bar .bar .css{
+    width: 70%;
+    animation: css 3s;
+}
+.skill-bar .bar .javascript{
+    width: 60%;
+    animation: javascript 4s;
+}
+.skill-bar .bar .python{
+    width: 85%;
+    animation: python 5s;
+}
 
 
 
@@ -264,5 +321,38 @@ body{
     100%{
         transform: translateY(0px);
         opacity: 1;
+    }
+}
+
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 85;
     }
 }
