@@ -492,6 +492,9 @@ body{
 .contact-form form{
     position: relative;
 }
+.contact-form .contact-inputs:focus{
+    border: 2px solid #0ef;
+}
 .contact-form form input,form textarea{
     border: none;
     outline: none;
