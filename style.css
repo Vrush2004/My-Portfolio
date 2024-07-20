@@ -789,5 +789,39 @@ body{
         width: 20px;
         height: 20px;
     }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        padding: 0 40px 10px 40px;
+    }
+    .contact-text h2{
+        font-size: 50px;
+    }
+    .contact-text h4{
+        margin: 20px 0;
+        font-size: 18px;
+    }
+    .contact-text p{
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 1rem;
+        text-align: justify;
+    }
+    .contact-list{
+        margin-bottom: 1rem;
+    }
+    .contact-list li{
+        margin-bottom: 7px;
+    }
+    .contact-list i{
+        font-size: 17px;
+    }
+    .contact-icons i{
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        margin: 15px 10px 15px 0;
+    }
 
 }
