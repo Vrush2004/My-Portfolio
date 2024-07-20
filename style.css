@@ -671,6 +671,8 @@ body{
         padding: 30px ;
     }
     .home-img img{
+        margin-top: 40px;
+        width: 100%;
         margin-left: 0px;
     }
     .home-content{
@@ -679,8 +681,51 @@ body{
     .home-content h3{
         font-size: 28px;
     }
+    .home-content p{
+        font-size: 15px;
+    }
+    .home-content h3 span{
+        color: #0ef;
+        display: inline-block;
+        width: 100%;
+        cursor: none;
+    }
+    .typed-cursor {
+        display: none !important;
+    }
     .home-content h1{
         font-size: 40px;
+    }
+    .home-sci a{
+        width: 30px;
+        height: 30px;
+        background: transparent;
+        font-size: 17px;
+        margin: 20px 10px 20px 0;
+    }
+    .btn-box{
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+
+    .about{
+        display: block;
+        align-items: center;
+    }
+    .about-img img{
+       display: none;
+    }
+    .about-text{
+        padding: 30px;
+        margin-right: 0px;
+    }
+    .about-text h2{
+        text-align: center;
+        font-size: 40px;
+    }
+    .about-text p{
+        font-size: 15px;
+        margin-bottom: 2rem;
     }
 
     .skill-main{
