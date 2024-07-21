@@ -469,6 +469,9 @@ body{
     transform: scale(1.01) translateY(-5px);
     color: #0ef;
 }
+.contact-icons a{
+    text-decoration: none;
+}
 .contact-icons i{
     display: inline-flex;
     justify-content: center;
