@@ -673,7 +673,7 @@ body{
     .navbar {
         position: fixed;
         width: 40%;
-        height: 50vh;
+        height: 60vh;
         border-radius: 0 0 0 50px;
         background-color: #061129;
         top: 58px;
@@ -683,8 +683,8 @@ body{
     }
     .navbar a{
         display: block;
-        font-size: 20px;
-        margin: 50px 0;
+        font-size: 15px;
+        margin: 20px 0;
         line-height: 30px;
         animation: slideLeft .5s ease forwards;
     }
