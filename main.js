@@ -1,3 +1,12 @@
+function toggleMenu() {
+    var navbar = document.getElementById("navbar");
+    if (navbar.style.right === "0px") {
+        navbar.style.right = "-100%";
+    } else {
+        navbar.style.right = "0";
+    }
+}
+
 var typed = new Typed(".text", {
     strings:[" Frontend Developer", "Full Stack Developer", " Data Scientist"],
     typeSpeed:100,
